@@ -1,9 +1,9 @@
 # Supervised-contrastive-learning-over-prototype-label-embeddings
 Code of the paper: "Supervised contrastive learning over prototype-label embeddings for network intrusion detection"
 
-This repository contains the code and the files obtained for the Monte Carlo simulation on the probability that two source and destination network address elements (NAE) have a simultaneous collision on both their source and destination parts.
+This repository contains the code and dataset files for the paper: "Supervised contrastive learning over prototype-label embeddings for network intrusion detection", , Manuel Lopez-Martin, Antonio Sanchez-Esguevillas, Juan Ignacio Arribas and Belen Carro.
 
-This simulation is part of the work done in the following work: “Network intrusion detection with a novel hierarchy of distances between embeddings of hash IP addresses”, Manuel Lopez-Martin, Belen Carro, Juan Ignacio Arribas, Antonio Sanchez-Esguevillas.
+The datasets files area avilable on this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing . These files contain the NSL-KDD and UNSW-NB15 (ADFA) intrusion detection datasets. 
 
 The simulation scope extends to the following scenarios:
 
@@ -12,7 +12,7 @@ The simulation scope extends to the following scenarios:
 
 The code for the second scenario is in the file: "Calc probability collision ip and port only.R"
 
-The datsets area avilable on this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing
+
 
 The simulation has been done in R
 
