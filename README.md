@@ -3,21 +3,42 @@ Code of the paper: "Supervised contrastive learning over prototype-label embeddi
 
 This repository contains the code and dataset files for the paper: "Supervised contrastive learning over prototype-label embeddings for network intrusion detection", , Manuel Lopez-Martin, Antonio Sanchez-Esguevillas, Juan Ignacio Arribas and Belen Carro.
 
-The datasets files area avilable on this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing . These files contain the NSL-KDD and UNSW-NB15 (ADFA) intrusion detection datasets. 
+The datasets files area available on this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing . These files contain:
+1. The original NSL-KDD and UNSW-NB15 (ADFA) intrusion detection datasets:  UNSW_NB15_training-set.csv, UNSW_NB15_testing-set.csv and KDDTest+.txt, KDDTrain+.txt; which are available from: https://www.unb.ca/cic/datasets/nsl.html and https://researchdata.edu.au/unsw-nb15-dataset
+2. The datasets after data processing: NSL_KDD_Load.pkl and ADFA_Load.pkl. These are the files that are used in the paper code.
 
-The simulation scope extends to the following scenarios:
+All code fies are available in this repository. The description of the different files is as follows:
+1. NSL_KDD_Load v2.0.ipynb :  Code to perform the data processing of the NSL-KDD dataset
+2. ADFA_Load 1.0.ipynb : Code to perform the data processing of the UNSW-NB15 dataset
+3. IDS_NSL-KDD v2.0-5labels-information fusion.ipynb: Code for the most representative models proposed in the paper, applied to the NSL-KDD dataset
+4. IDS_UNSW-NB15 v2.0-10labels-information fusion.ipynb: Code for the most representative models proposed in the paper, applied to the UNSW-NB15 dataset
 
-1. one
-2. two
+The different models presented in each code file are:
 
-The code for the second scenario is in the file: "Calc probability collision ip and port only.R"
+- NSL-KDD (IDS_NSL-KDD v2.0-5labels-information fusion.ipynb)
+1. LBL, ConCE (with embedding dimensions 2 and 10)
+2. LBL, ConLE
+3. RLB-CL, E2NMS
+4. RLB-CL, E2NAMS
+5. RLB-CL, E2WNAMS (1,0.5,0.5)
+6. RLB-CL, ENMS
+7. RLB-CL, CE+ENMS
+8. RLB-CL, NMM
+9. RLB-CL, CE+NMM
+10. RLB-CL, CEDist+NMM
+11. RLB-CL, WNAMM (1,0.5,1,0.5)
+12. RLB-CL, NAMM
+13. RLB-CL, AMM
+14. RLB-CL, ConN
 
+- UNSW-NB15 (IDS_UNSW-NB15 v2.0-10labels-information fusion.ipynb)
+1. LBL, ConCE
+2. LBL, ConLE
+3. RLB-CL, E2NMS
+4. RLB-CL, ENMS
+5. RLB-CL, CE+ENMS
+6. RLB-CL, NMM
+7. RLB-CL, NAMM
+8. RLB-CL, MMoLE
 
-
-The simulation has been done in R
-
-The simulations demonstrate that the probability of collision (for a single NAE) depends on the maximum hash value (k) following the expression (1/k)^2 . Considering the three NAEs simulatenously the probability is (1/k)^6. In scenario 1 and 2 with a k=3000, the collision probability obtained for a single NAE is between 1e-07 and 2e-07, which is very close to the theoretical 1.111111e-07 (1/3000)^2 . And, in scenario 3 with a k=30, the collision probability obtained for a single NAE is between 0.0011342 and 0.0022053, which is also very close to the theoretical 0.001111111 (1/30)^2
-
-In all simulations with a k=3000, not a single simultaneous collision has appeared for the three NAEs with a number of samples in the simulation of 1e+7.
-
-The code is prepared to be executed in the cloud using Google Colaboratory https://colab.research.google.com/notebooks/intro.ipynb
+The code can be executed in the cloud using Google Colaboratory https://colab.research.google.com/notebooks/intro.ipynb
