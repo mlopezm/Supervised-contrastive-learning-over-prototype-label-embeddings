@@ -12,6 +12,7 @@ All code fies are available in this repository. The description of the different
 2. ADFA_Load 1.0.ipynb : Code to perform the data processing of the UNSW-NB15 dataset
 3. IDS_NSL-KDD v2.0-5labels-information fusion.ipynb: Code for the most representative models proposed in the paper, applied to the NSL-KDD dataset
 4. IDS_UNSW-NB15 v2.0-10labels-information fusion.ipynb: Code for the most representative models proposed in the paper, applied to the UNSW-NB15 dataset
+5. Lib.py: Code file with some auxiliary functions for data processing
 
 The different models presented in each code file are:
 
@@ -40,5 +41,7 @@ The different models presented in each code file are:
 6. RLB-CL, NMM
 7. RLB-CL, NAMM
 8. RLB-CL, MMoLE
+
+Each model includes: the architecture of the model, the results of the training phase, the performance metrics for the test set and the visualization of the clusters. The chosen models correspond mainly to models with an embedding dimension of two (to facilitate the visualization of the clusters) and to the multiclass case (because they are more complex and representative).
 
 The code can be executed in the cloud using Google Colaboratory https://colab.research.google.com/notebooks/intro.ipynb
