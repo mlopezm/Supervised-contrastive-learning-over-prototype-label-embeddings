@@ -1,7 +1,7 @@
 # Supervised-contrastive-learning-over-prototype-label-embeddings
 Code of the paper: "Supervised contrastive learning over prototype-label embeddings for network intrusion detection"
 
-This repository contains the code and dataset files for the paper: "Supervised contrastive learning over prototype-label embeddings for network intrusion detection", , Manuel Lopez-Martin, Antonio Sanchez-Esguevillas, Juan Ignacio Arribas and Belen Carro.
+This repository contains the code and dataset files for the paper: "Supervised contrastive learning over prototype-label embeddings for network intrusion detection", Manuel Lopez-Martin, Antonio Sanchez-Esguevillas, Juan Ignacio Arribas and Belen Carro.
 
 The datasets files area available on this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing . These files contain:
 1. The original NSL-KDD and UNSW-NB15 (ADFA) intrusion detection datasets:  UNSW_NB15_training-set.csv, UNSW_NB15_testing-set.csv and KDDTest+.txt, KDDTrain+.txt; which are available from: https://www.unb.ca/cic/datasets/nsl.html and https://researchdata.edu.au/unsw-nb15-dataset
