@@ -12,7 +12,7 @@ All code fies are available in this repository. The description of the different
 1. NSL_KDD_Load v2.0.ipynb :  Code to perform the data processing of the NSL-KDD dataset
 2. ADFA_Load 1.0.ipynb : Code to perform the data processing of the UNSW-NB15 dataset
 3. IDS_NSL-KDD v2.0-5labels.ipynb: Code for the most representative models proposed in the paper, applied to the NSL-KDD dataset
-4. IDS_UNSW-NB15 v2.0-10labels.ipynb: Code for the most representative models proposed in the paper, applied to the UNSW-NB15 dataset
+4. IDS_UNSW-NB15 v2.0-10labels.ipynb: Code for the most representative models proposed in the paper, applied to the UNSW-NB15 dataset and trying to avoid, as far as possible, redundancy with the models already presented for the NSL-KDD dataset.
 5. Lib.py: Code file with some auxiliary functions for data processing
 
 The different models presented in each code file are:
