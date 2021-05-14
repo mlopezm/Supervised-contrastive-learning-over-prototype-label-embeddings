@@ -3,7 +3,8 @@ Code of the paper: "Supervised contrastive learning over prototype-label embeddi
 
 This repository contains the code and dataset files for the paper: "Supervised contrastive learning over prototype-label embeddings for network intrusion detection", Manuel Lopez-Martin, Antonio Sanchez-Esguevillas, Juan Ignacio Arribas and Belen Carro.
 
-The dataset files are available on this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing . These files contain:
+The dataset files are available on this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing. 
+This location contains:
 1. The original NSL-KDD and UNSW-NB15 (ADFA) intrusion detection datasets:  UNSW_NB15_training-set.csv, UNSW_NB15_testing-set.csv and KDDTest+.txt, KDDTrain+.txt; which are available from: https://www.unb.ca/cic/datasets/nsl.html and https://researchdata.edu.au/unsw-nb15-dataset
 2. The datasets after data processing: NSL_KDD_Load.pkl and ADFA_Load.pkl. These are the files that are used in the paper code.
 
@@ -42,6 +43,6 @@ The different models presented in each code file are:
 7. RLB-CL, NAMM
 8. RLB-CL, MMoLE
 
-Each model includes: the architecture of the model, the results of the training phase, the performance metrics for the test set and the visualization of the clusters. The chosen models correspond mainly to models with an embedding dimension of two (to facilitate the visualization of the clusters) and to the multiclass case (because they are more complex and representative).
+The models included in each code file correspond to a representative selection, trying to avoid redundancy. Each model includes: the architecture of the model, the results of the training phase, the performance metrics for the test set and the visualization of the clusters. The chosen models correspond mainly to models with an embedding dimension of two (to facilitate the visualization of the clusters) and to the multiclass case (because they are more complex and representative).
 
 The code can be executed in the cloud using Google Colaboratory https://colab.research.google.com/notebooks/intro.ipynb
