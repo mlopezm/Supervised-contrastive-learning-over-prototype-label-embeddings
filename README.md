@@ -3,19 +3,19 @@ Code of the paper: "Supervised contrastive learning over prototype-label embeddi
 
 This repository contains the code and dataset files for the paper: "Supervised contrastive learning over prototype-label embeddings for network intrusion detection", Manuel Lopez-Martin, Antonio Sanchez-Esguevillas, Juan Ignacio Arribas and Belen Carro.
 
-The dataset files are available on this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing. 
+The **dataset files** are available in this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing. 
 The content of this location with the data files is:
 1. The original NSL-KDD and UNSW-NB15 (ADFA) intrusion detection datasets:  UNSW_NB15_training-set.csv, UNSW_NB15_testing-set.csv and KDDTest+.txt, KDDTrain+.txt; which are available from: https://www.unb.ca/cic/datasets/nsl.html and https://researchdata.edu.au/unsw-nb15-dataset
 2. The datasets after data processing: NSL_KDD_Load.pkl and ADFA_Load.pkl. These are the files that are used in the paper's code.
 
-All code fies are available in this repository. The description of the different files is as follows:
+All **code files** are available in this (github) repository. The description of the different files is as follows:
 1. NSL_KDD_Load v2.0.ipynb :  Code to perform the data processing of the NSL-KDD dataset
 2. ADFA_Load 1.0.ipynb : Code to perform the data processing of the UNSW-NB15 dataset
 3. IDS_NSL-KDD v2.0-5labels.ipynb: Code for the most representative models proposed in the paper, applied to the NSL-KDD dataset (5 labels)
 4. IDS_UNSW-NB15 v2.0-10labels.ipynb: Code for the most representative models proposed in the paper, applied to the UNSW-NB15 dataset (10 labels) and trying to avoid, as far as possible, redundancy with the models already presented for the NSL-KDD dataset.
 5. Lib.py: Code file with some auxiliary functions for data processing
 
-The different models presented in each code file are:
+The different **models presented** in each code file are:
 
 - NSL-KDD (IDS_NSL-KDD v2.0-5labels.ipynb)
 1. LBL, ConCE (with embedding dimensions 2 and 10)
