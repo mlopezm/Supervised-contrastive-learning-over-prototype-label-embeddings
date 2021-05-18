@@ -6,7 +6,7 @@ This repository contains the code and dataset files for the paper: "Supervised c
 The dataset files are available on this location: https://drive.google.com/drive/folders/1QSf-0wK-pTKHamA13xW4KpNxcTTJsqt2?usp=sharing. 
 The content of this location with the data files is:
 1. The original NSL-KDD and UNSW-NB15 (ADFA) intrusion detection datasets:  UNSW_NB15_training-set.csv, UNSW_NB15_testing-set.csv and KDDTest+.txt, KDDTrain+.txt; which are available from: https://www.unb.ca/cic/datasets/nsl.html and https://researchdata.edu.au/unsw-nb15-dataset
-2. The datasets after data processing: NSL_KDD_Load.pkl and ADFA_Load.pkl. These are the files that are used in the paper code.
+2. The datasets after data processing: NSL_KDD_Load.pkl and ADFA_Load.pkl. These are the files that are used in the paper's code.
 
 All code fies are available in this repository. The description of the different files is as follows:
 1. NSL_KDD_Load v2.0.ipynb :  Code to perform the data processing of the NSL-KDD dataset
