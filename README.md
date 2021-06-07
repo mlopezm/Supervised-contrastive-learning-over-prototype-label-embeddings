@@ -43,6 +43,8 @@ The different **models presented** in each code file are:
 7. RLB-CL, NAMM
 8. RLB-CL, MMoLE
 
-The models included in each code file correspond to a representative selection, trying to avoid redundancy. Each model includes: the architecture of the model, the results of the training phase, the performance metrics for the test set and the visualization of the clusters. The chosen models correspond mainly to models with an embedding dimension of two (to facilitate the visualization of the clusters) and to the multiclass case with 5 and 10 labels (because they are more complex and representative).
+The models included in each code file correspond to a representative selection, trying to avoid redundancy. Each model includes: the architecture of the model, the results of the training phase, the performance metrics for the test set and the visualization of the clusters. 
+
+The chosen models correspond mainly to models with an embedding dimension of two (to facilitate the visualization of the clusters) and to the multiclass case with 5 and 10 labels (because they are more complex and representative).
 
 The code can be executed in the cloud using Google Colaboratory https://colab.research.google.com/notebooks/intro.ipynb
